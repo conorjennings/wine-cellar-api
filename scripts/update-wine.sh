@@ -1,8 +1,8 @@
 # Example of updating wine:
 
-curl --include --request PATCH http://localhost:4741/wines/3 \
+curl --include --request PATCH http://localhost:4741/wines/28 \
 --header "Content-Type: application/json" \
---header "Authorization: Token token=BAhJIiU2NjE0M2FkYmU2NzYwMDFkYjU2MTdjODFjMzg0YmRjMwY6BkVG--8b48d2949a06b2c7d1438bebe0a2fe3563817e1f" \
+--header "Authorization: Token token=BAhJIiVhNjYzODlhOTYyMDdlMmE4NjI0NDZmMzM2ZmNlNjYwZAY6BkVG--78e35c48ff7ce8ebe6aae6f8b92cefa88a350e9b" \
   --data '{
 	"wine": {
 		"rating": "5",
